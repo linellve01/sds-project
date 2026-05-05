@@ -1,4 +1,18 @@
-# Byte-compiled / optimized / DLL files
+# Data files
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Outputs
+outputs/# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class

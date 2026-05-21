@@ -26,14 +26,16 @@ https://data.stadt-zuerich.ch/dataset/geo_statistische_quartiere
 
 ## Repository Structure
 
-my-project/
-├── README.md
-├── environment.yml
+```
+sds-project/
 ├── data/
 │   ├── raw/
 │   └── processed/
 ├── notebooks/
-└── outputs/
+├── outputs/
+├── environment.yml
+└── README.md
+```
 
 ---
 
@@ -56,4 +58,3 @@ Install the environment:
 ## Execution Order
 1. "data_clean.ipynb"
 2. "spatial-analysis.ipynb"
-3. "data_visualization.ipynb"
